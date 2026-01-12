@@ -1,0 +1,81 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python environment files
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# ==============================
+# Machine Learning / Data
+# ==============================
+# Large model files (commit only if explicitly required)
+
+# Numpy arrays
+*.npy
+
+# Dataset outputs
+processed_data/
+data/
+datasets/
+
+# ==============================
+# FastAPI / Backend
+# ==============================
+# Uvicorn
+uvicorn.log
+
+# SQLite / DB (if used)
+*.sqlite3
+
+# ==============================
+# React + Vite Frontend
+# ==============================
+node_modules/
+dist/
+.vite/
+.cache/
+
+# Vercel
+.vercel/
+
+# ==============================
+# OS & Editor
+# ==============================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# ==============================
+# Test & Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Misc
+# ==============================
+*.swp
+*.tmp
